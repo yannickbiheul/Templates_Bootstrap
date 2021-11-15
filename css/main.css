@@ -1,8 +1,13 @@
 @import 'header.css';
 @import 'banniere.css';
+@import 'contenu.css';
 
 * {
     font-family: 'Quicksand', sans-serif;
+}
+
+html, body {
+    background-color: var(--black1);
 }
 
 h1 {
@@ -20,7 +25,7 @@ h1 {
     --green2: #2ecc71;
     --red1: #c0392b;
     --red2: #e74c3c;
-    --black1: #2c3e50;
+    --black1: #2f3542;
     --turquoise1: #16a085;
     --turquoise2: #1abc9c;
     --purple1: #8e44ad;

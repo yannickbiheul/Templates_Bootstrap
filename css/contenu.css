@@ -1,0 +1,18 @@
+.contenu {
+    background-color: var(--black1);
+}
+
+.contenu-elt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--black1);
+    color: #fff;
+    padding: 40px;
+}
+
+.contenu-elt > i {
+    font-size: 2rem;
+}
